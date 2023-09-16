@@ -1,11 +1,11 @@
 # NLP Entity Recognition Task
 
-This repository contains Python code that demonstrates Named Entity Recognition (NER) using the spaCy library. NER is a natural language processing (NLP) technique that identifies entities such as names of people, places, organizations, and more in text data. In this example, we use spaCy to process a set of sentences and extract information about the recognized entities.
+This repository contains 2 Python code that demonstrates Named Entity Recognition (NER) using the spaCy library. NER is a natural language processing (NLP) technique that identifies entities such as names of people, places, organizations, and more in text data. In this example, we use spaCy to process a set of sentences and extract information about the recognized entities.
 
 ## Code Overview
 
 ### GARDEN.PY TASK
-- File: `code1.py`
+- File: `garden.py`
 
 ```python
 import spacy
@@ -42,8 +42,8 @@ for sentence in gardenpathSentences:
 # - Sense: The entity makes sense as it represents a geographical location in the sentence.
 ```
 
-### Code 2
-- File: `code2.py`
+### MAIN.PY TASK
+- File: `main.py`
 
 ```python
 import spacy
